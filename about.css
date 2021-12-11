@@ -1,71 +1,109 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-  }
-  
-  html {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  .column {
-    float: left;
-    /* width: 33.3%; */
-    width: 33%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  
-  .card {
-    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
-    margin: 8px;
-  }
-  
-  .about {
-    padding: 50px;
-    background-color: #DEF2F1;
-    text-align: center;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .container {
-    padding: 16px 16px;
-  }
-  
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    position: relative;
-  }
-   
-  .container h2{
-      text-align: center;
-  }
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 
-  .button {
-    
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    margin: 0px 30%;
-    color: #DEF2F1;
-    background-color: #2b7a78;
-    text-align: center;
-    cursor: pointer;
-    width: 40%;
-  }
-  
-  .button:hover {
-    background-color: #17252a;
-    color: #DEF2F1;
-  }
+body{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: 100;
+  color: black;
+  background-color: #DEF2F1;
+}
 
-  a{
-      text-decoration: none;
-  }
+.nav-menu {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  overflow: hidden; 
+  background-color: #2b7a78;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+h1{
+  padding: 5px;
+  color: white;
+}
+
+.nav-menu a 
+{
+  float: right;
+  text-align: center;
+  display: block;
+  color: cornsilk;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a.current:link{
+  padding: 5px;
+  border: 3px solid white;
+}
+
+.nav-menu a:hover {
+  background-color: #fefffe;
+  color: #17252a;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.card {
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about {
+  padding: 50px;
+  text-align: center;
+}
+.about h1{
+  color: black;
+}
+.container {
+  padding: 16px 16px;
+  background-color: #fefffe;
+  height: 200px;
+  padding: 20px 30px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  position: relative;
+}
+  
+.container h2{
+    text-align: center;
+    background-color: #FFE652;
+    margin-bottom: 20px;
+}
+
+.container a{
+  text-decoration: none;
+}
+
+button{
+  display: block;
+  margin: 0 auto;
+}

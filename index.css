@@ -1,36 +1,39 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    margin-bottom: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     font-weight: 100;
     color: black;
 }
 
-h2 {
-    color: #17252a;
-    text-align: center;
-    font-size: 20px;
-}
-
-/* styling the header */
-.header {
-    padding: 5px;
-    background-color: #DEF2F1;
-    text-align: center;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* styling navigation */
 .nav-menu {
+    padding: 20px;
+    display: flex;
+    align-items: center;
     overflow: hidden; 
     background-color: #2b7a78;
 }
-
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+h1{
+    padding: 5px;
+    color: white;
+}
 .nav-menu a {
     float: right;
     text-align: center;
@@ -53,16 +56,16 @@ table{
     width: 100%;
 }
 
+a.current:link{
+    padding: 5px;
+    border: 3px solid white;
+}
+
 .main_table thead th{
     padding: 6px;
     background-color: #17252a;
     color: white;
 }
-
-/* table th, td
-{
-    border: 1px solid black;
-} */
 
 .table-cont td{
     border-bottom: 1px solid black;
@@ -79,18 +82,9 @@ table{
     width: 100%;
 }
 
-/* .main_table thead, tbody, tr, td, th {
-    display: block;
-} */
-
 .main_table td{
     padding: 6px;
 }
-
-
-/* .main_table tbody td{
-    float: left;
-} */
 
 .table-cont .col-id{
     text-align: center;
