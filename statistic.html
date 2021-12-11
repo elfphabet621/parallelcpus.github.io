@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistic</title>
+    <link rel="stylesheet" href="statistic.css">
+</head>
+<body>
+    <!-- header for website -->
+    <header class="header">
+        <h2>Statistic</h2>
+    </header>
+
+    <!-- navigation for website-->
+    <div class="nav-menu">
+        <a href="about.html" >ABOUT</a>
+        <a href="search.html">SEARCH</a>
+        <a href="statistic.html">STATISTICS</a>
+        <a href="index.html">HOME</a>  
+    </div>
+
+    <!-- form part-->
+    <form>   
+        <div class="option-lan">
+            <p>Language</p>
+            <input type="radio" value="en" id="eng" name="selected-lan" checked>
+            <label >English</label><br>
+            <input type="radio" value="vn" id="viet" name="selected-lan">
+            <label >Vietnamese</label>
+        </div>
+        <br>
+        <div class="option-numbers">
+            <p>Numbers</p>
+            <input type="radio" value="top" id="top-n" name="selected-num" checked>
+            <label>Top</label><br>
+            <input type="radio" value="all" id="all-" name="selected-num">
+            <label>All</label>
+        </div>
+        <button type="button" class="btn-filter" onclick="formData()">FILTER</button>
+        <button type="reset" class="btn-reset">RESET</button>
+    </form>
+
+    <!-- table part-->
+    <table class="table">
+        <thead class="table-head">
+            <tr>
+                <th class="col-w">Word</th>
+                <th class="col-c">Count</th>
+            </tr>
+        </thead>
+        <tbody class="table-cont">
+        </tbody>
+    </table>
+
+    <script src="statistic.js"></script>
+</body>
+</html>

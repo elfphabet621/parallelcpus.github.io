@@ -1,4 +1,5 @@
 from underthesea import word_tokenize
+
 with open("./data/evc.txt", encoding='utf-8', mode='r') as fread:
     with open("./data/wseg.txt", encoding='utf-8', mode='w') as fwrite:
         while True:

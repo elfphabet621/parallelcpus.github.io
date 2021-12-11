@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: black;
+}
+
+h2 {
+    color: #17252a;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* styling the header */
+.header {
+    padding: 5px;
+    background-color: #DEF2F1;
+    text-align: center;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling navigation */
+.nav-menu {
+    overflow: hidden; 
+    background-color: #2b7a78;
+}
+
+.nav-menu a {
+    float: right;
+    text-align: center;
+    display: block;
+    color: cornsilk;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-menu a:hover {
+    background-color: #fefffe;
+    color: #17252a;
+}
+
+form{
+    float: right;
+    width: 20%;
+    display: block;
+}
+
+form p{
+    font-weight: bold;
+    font-size: large;
+}
+table{
+    width: 70%;
+}
+
+.table thead th{
+    padding: 6px;
+    background-color: #17252a;
+    color: white;
+}
+
+.table-cont td{
+    border-bottom: 1px solid black;
+    border-left:  1px solid black;
+}
+
+.table tbody{
+    overflow-y: auto;
+    width: 100%;
+}
+
+.table-cont{
+    text-align: center;
+}
