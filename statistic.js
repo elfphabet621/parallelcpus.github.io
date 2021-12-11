@@ -32,6 +32,7 @@ function loadJSON(selected_lan, selected_num, wordList){
         {
             html += `
                 <tr>
+                    <td class ="col-w">${data[line].ordinal}</td>
                     <td class ="col-w">${data[line].word}</td>
                     <td class="col-c">${data[line].count}</td>
                 </tr>

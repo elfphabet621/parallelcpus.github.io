@@ -1,11 +1,10 @@
-LABELS =['word', 'count']
+LABELS =['ordinal','word', 'count']
 MAX_LEN = 500
-LEN_LABELS = 2
+LEN_LABELS = 3
 ip1 = "count_eng_word.txt"
 ip2 = "count_viet_word.txt"
 op1 = "engWordList.json"
 op2 = "vietWordList.json"
-
 
 import json
 def write_to_json(outputfile, mainlist):
@@ -20,7 +19,7 @@ def txt_json(inputfile, outputfile):
             if k == MAX_LEN:
                 break
             description = list(line.strip().split())
-                
+            description.insert(0, k+1)
             tempdict = dict()
             for i in range(LEN_LABELS):
                 tempdict[LABELS[i]] = description[i]
@@ -30,5 +29,5 @@ def txt_json(inputfile, outputfile):
 
     write_to_json(outputfile, mainlist)
 
-txt_json(ip1, op1)
+# txt_json(ip1, op1)
 # txt_json(ip2, op2)

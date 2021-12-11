@@ -12,7 +12,6 @@ and 5652
 for 5533
 it 5216
 she 4890
-s 4745
 his 4619
 on 4561
 her 4097
@@ -23,7 +22,6 @@ are 3151
 have 3149
 be 2809
 at 2798
-t 2723
 this 2683
 my 2518
 by 2411
@@ -40,7 +38,6 @@ there 1911
 has 1871
 not 1837
 out 1837
-'s 1816
 do 1781
 up 1779
 had 1759
@@ -65,13 +62,10 @@ get 1069
 would 1008
 how 998
 go 971
-ll 969
 time 966
 work 935
-m 918
 no 908
 people 892
-ve 877
 over 844
 after 842
 good 817
@@ -104,7 +98,6 @@ only 632
 before 626
 well 625
 know 616
-re 609
 don't 608
 back 596
 should 594
@@ -131,7 +124,6 @@ did 486
 than 480
 last 475
 put 474
-d 472
 years 466
 other 466
 room 465
@@ -152,13 +144,11 @@ most 428
 really 425
 left 420
 year 419
-'ll 415
 such 406
 next 403
 went 401
 still 400
 party 397
-'m 397
 school 394
 little 390
 let 381
@@ -535,7 +525,6 @@ myself 115
 chinese 114
 wants 114
 famous 114
-o 114
 report 113
 position 113
 hands 113
@@ -651,7 +640,6 @@ marriage 94
 meal 94
 paid 94
 accept 94
-'re 94
 ago 93
 reached 93
 television 93

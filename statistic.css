@@ -98,7 +98,13 @@ button:hover {
   }
 
 table{
-    width: 70%;
+    width: auto;
+    table-layout: fixed;
+}
+
+th, td{
+    width: 300px;
+    overflow: hidden;
 }
 
 .table thead th{
